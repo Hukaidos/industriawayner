@@ -1,0 +1,109 @@
+.app{
+    display: flex;
+}
+h2{
+    margin: 15px 0;
+    background-color: aliceblue;
+    height: 50px;
+    border-radius: 5px;
+    padding: 6px
+}
+p{
+    color: rgb(226, 204, 185);
+}
+.subtitulo{
+    background-color: rgb(25, 25, 26);
+    margin: 0;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+    color: rgb(189, 187, 186);
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+.esquerdo{
+    width: 100%;
+    background-color: rgb(202, 211, 208);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.direito{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(197, 194, 190);
+    margin: 0 5px;
+    border-radius: 5px;
+    max-height: 600px;
+}
+.adicionar{
+    margin-top: 15px;
+    display: flex;
+}
+.adicionar input{
+    width: 40vw;
+    margin: 0 5px 0 15px;
+    height: 40px;
+}
+.adicionar button{
+    height: 40px;
+    margin-right: 15px;
+}
+.remover{
+    display: flex;
+    margin-top: 15px;
+}
+.remover input{
+    width: 40vw;
+    margin: 0 5px 0 15px;
+    height: 40px;
+}
+.remover button{
+    height: 40px;
+    margin-right: 15px;
+}
+#updateItem{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+label{
+    margin-top: 50px;
+    padding-right: 650px;
+}
+button{
+    background-color: rgb(106, 110, 109);
+}
+#managerInventoryList{
+    width: 98%;
+    align-items: center;
+    padding-left: 12px;
+}
+#adminResourceList{
+    width: 98%;
+    align-items: center;
+    padding-left: 12px;
+}
+.caixafuncionario{
+    display: flex;
+    align-items: center;
+}
+.caixafuncionario button{
+    height: 40px;
+    width: 10%;
+    justify-content: center;
+}
+.caixafuncionario input{
+    height: 40px;
+    align-items: center;
+}
+#inventoryList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}

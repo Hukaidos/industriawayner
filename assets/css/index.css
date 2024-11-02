@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/img/backgroud.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 6px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 0 20px 0 darkgrey;
+}
+img{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 0 20px 0 darkgrey;
+}
+form {
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+}
+
+.buttonsForm {
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 rgb(126, 99, 151);
+}
+
+.buttonsForm button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+}
+
+.btnColor {
+    position: absolute;
+    width: 106px;
+    height: 100%;
+    background: linear-gradient(to right, #dcdddc, #818f84);
+    border-radius: 30px;
+    transition: .3s;
+}
+input[type="text"], input[type="password"] {
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 60px;
+    padding: 8px 0 8px 20px;
+    outline: none;
+    width: 100%;
+}
+
+.level {
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    background: #000f02;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#signin {
+    left: 25px;
+    padding: 80px 0;
+}
+
+#signup {
+    left: 450px;
+    padding: 30px 0;
+}
+.box1{
+    margin-top: 15px;
+    align-items: center;
+    width: 100%;
+}
+.tnivel{
+    width: 100%;
+    background-color: #c6ccc7;
+    padding: 12px;
+    border-radius: 13px;
+}
+
+.iEmail {
+    top: 40px;
+}
+
+.iPassword {
+    top: 114px;
+}
